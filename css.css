@@ -1,0 +1,59 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:focus{
+    background-color: none;
+    box-shadow: none !important;
+    border: 1px solid #212529 !important;
+    outline: none !important;
+   
+}
+body{
+    background-color: #ccc;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    margin: 0px 15px;
+}
+.navbar .nav-link{
+    padding: 10px 25px !important;
+    border: none !important;
+}
+
+.stu-table .box{
+    background-color: #fff;
+    padding: 5px 5px;
+   
+}
+.stu-table .box .title h3{
+   font-size: 22px !important;
+}
+.stu-table .box .table th{
+   background-color: #212529;
+   color: #fff;
+}
+
+.login-box{
+    background-color: #fff !important;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+textarea{
+    resize: none !important;
+}
+.header{
+    background-image: url(img/back.png);
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+.header .text h2{
+   font-size: 40px;
+}
